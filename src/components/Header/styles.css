@@ -1,0 +1,35 @@
+.header {
+    padding: 20px 50px;
+}
+
+.search {
+    width: 20px;
+}
+
+.input-search {
+    background-color: var(--gray);
+    padding: 15px 20px;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+}
+
+.input {
+    background-color: var(--gray);
+    border: 0;
+    margin: 0;
+}
+
+.bag {
+    width: 45px;
+}
+
+.button-filter {
+    background-color: var(--white);
+    border: 1px solid var(--blue);
+    color: var(--blue);
+    padding: 5px 10px;
+    border-radius: 50px;
+    cursor: pointer;
+    margin-top: 20px;
+}

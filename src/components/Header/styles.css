@@ -2,6 +2,10 @@
     padding: 20px 50px;
 }
 
+.logo {
+    width: 214px;
+}
+
 .search {
     width: 20px;
 }
@@ -28,8 +32,12 @@
     background-color: var(--white);
     border: 1px solid var(--blue);
     color: var(--blue);
-    padding: 5px 10px;
+    padding: 5px 15px;
     border-radius: 50px;
     cursor: pointer;
     margin-top: 20px;
+}
+
+.button-filter:hover {
+    background-color: var(--blueLight);
 }

@@ -1,0 +1,50 @@
+.container-font {
+    padding: 50px;
+}
+
+.info-font {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.title-font, .styles-font, .developer-font {
+    display: inline-flex;
+    margin: 0;
+    padding: 0px 5px;
+}
+
+.title-font {
+    font-size: 1.1em;
+}
+
+.styles-font {
+    padding-right: 8px;
+}
+
+.developer-font {
+    border-left: 1px solid rgba(128, 128, 128, 0.322);
+    padding-left: 8px;
+}
+
+.container-text-font {
+    position: relative;
+}
+
+.container-bg-text-font {
+    background-image: linear-gradient(to right, transparent 90%, white);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.322);
+}
+
+.text-font {
+    font-size: 2.4em;
+    text-indent: 3px;
+    height: 1.9em;
+    overflow: hidden;
+    text-wrap: nowrap;
+}
